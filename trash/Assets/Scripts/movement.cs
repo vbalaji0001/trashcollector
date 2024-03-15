@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class movement : MonoBehaviour
 {
-    public float speed;
+    public float speed = 0f;
     private int inputX;
 
     // Start is called before the first frame update
@@ -21,19 +21,18 @@ public class movement : MonoBehaviour
 
     void move()
     {
-        if (Input.GetKey(KeyCode.A))
+        if (Input.GetKey(KeyCode.A) && speed > -7f)
         {
-            inputX = -1;
+            speed = speed - 1f;
         }
-        else if(Input.GetKey(KeyCode.D))
+        else if(Input.GetKey(KeyCode.D) && speed < 7f)
         {
-            inputX = 1;
+            speed = speed + 1f;
         }
-        else
-        {
-            inputX = 0;
+        else{
+            speed = speed / 1.5f;
         }
-
-        transform.position = new Vector2(transform.position.x + inputX * speed *Time.deltaTime, transform.position.y);
+       
+     transform.position = new Vector2(transform.position.x +  (speed *Time.deltaTime), transform.position.y);
     }
 }
