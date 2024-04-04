@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class fishSpawner : MonoBehaviour
 {
-    float wait = 3.5f;
+    float wait = 5.0f;
     public float lowerBound = -10;
     public GameObject fallingObject;
 
@@ -14,10 +14,8 @@ public class fishSpawner : MonoBehaviour
         InvokeRepeating("Fall", wait, wait);
     }
 
-    void update()
-    {
 
-    }
+   
     // Update is called once per frame
     void Fall()
     {

@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class trashCanSpawner : MonoBehaviour
 {
-    float wait = 3.0f;
+    float wait = 3.5f;
     public float lowerBound = -10;
     public GameObject fallingObject;
 
@@ -16,12 +16,15 @@ public class trashCanSpawner : MonoBehaviour
 
     void update()
     {
-
+        if (transform.position.y < lowerBound)
+        {
+            Destroy(fallingObject);
+        }
     }
     // Update is called once per frame
     void Fall()
     {
-        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 10 ,0), Quaternion.identity);
+        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 14 ,0), Quaternion.identity);
     }
 }
 

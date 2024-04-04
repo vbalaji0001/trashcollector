@@ -14,15 +14,13 @@ public class trashBagSpawner : MonoBehaviour
         InvokeRepeating("Fall", wait, wait);
     }
 
-    void update()
-    {
-
-    }
     // Update is called once per frame
     void Fall()
     {
-        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 10 ,0), Quaternion.identity);
+        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 12 ,0), Quaternion.identity);
     }
+
+    
 }
 
        
