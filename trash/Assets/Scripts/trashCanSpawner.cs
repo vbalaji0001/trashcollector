@@ -24,7 +24,7 @@ public class trashCanSpawner : MonoBehaviour
     // Update is called once per frame
     void Fall()
     {
-        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 14 ,0), Quaternion.identity);
+        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 18 ,0), Quaternion.identity);
     }
 }
 

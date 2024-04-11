@@ -223,8 +223,8 @@ Transform:
   m_GameObject: {fileID: 351171098}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0.62, y: -1.21, z: 0}
+  m_LocalScale: {x: 3.0375001, y: 1.6837499, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -293,7 +293,7 @@ Camera:
   far clip plane: 1000
   field of view: 60
   orthographic: 1
-  orthographic size: 7.8675137
+  orthographic size: 9.0430765
   m_Depth: -1
   m_CullingMask:
     serializedVersion: 2
@@ -503,7 +503,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -485.58, y: -288.06}
+  m_AnchoredPosition: {x: -486.02, y: -287.33}
   m_SizeDelta: {x: 9.7624, y: 7.9012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &799054914
@@ -638,7 +638,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
-  m_AnchoredPosition: {x: -500.79, y: -288.06}
+  m_AnchoredPosition: {x: -501.89, y: -287.33}
   m_SizeDelta: {x: 9.7624, y: 7.9012}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1294616593
@@ -1106,8 +1106,8 @@ Transform:
   m_GameObject: {fileID: 1489835460}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 2.5, z: 1}
+  m_LocalPosition: {x: 0.59, y: -0.99, z: 0}
+  m_LocalScale: {x: 3.262, y: 3.1055, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}
@@ -1193,8 +1193,8 @@ Transform:
   m_GameObject: {fileID: 1652364460}
   serializedVersion: 2
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 0, y: 0, z: 0}
-  m_LocalScale: {x: 2.5, y: 1.5, z: 1}
+  m_LocalPosition: {x: 0.29, y: 0.12, z: 0}
+  m_LocalScale: {x: 2.95575, y: 2.0511, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
   m_Father: {fileID: 0}

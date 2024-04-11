@@ -19,7 +19,7 @@ public class fishSpawner : MonoBehaviour
     // Update is called once per frame
     void Fall()
     {
-        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 10 ,0), Quaternion.identity);
+        Instantiate(fallingObject, new Vector3(Random.Range(-10, 10), 15 ,0), Quaternion.identity);
     }
 }
 
